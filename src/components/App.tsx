@@ -16,7 +16,6 @@ function App() {
    });
   
 function handleVote(type:VoteType): void {
-    console.log('You voted:', type, votes);
    setVotes(prev => ({
       ...prev,
      [type]: prev[type] + 1, 
@@ -27,7 +26,6 @@ function handleVote(type:VoteType): void {
   }
 
   function resetVotes(): void {
-    console.log('Reset votes');
     setVotes({
     good: 0,
     neutral: 0,
