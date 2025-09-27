@@ -1,9 +1,9 @@
 
-import css from'../styles/App.module.css'
-import CafeInfo from './CafeInfo'
-import VoteOptions from './VoteOptions'
-import VoteStatus from './VoteStatus'
-import type { VoteType,  Votes } from '../types/votes'
+import css from'./App.module.css'
+import CafeInfo from '../CafeInfo/CafeInfo'
+import VoteOptions from '../VoteOptions/VoteOptions'
+import VoteStatus from '../VoteStatus/VoteStatus'
+import type { VoteType,  Votes } from '../../types/votes'
 import { useState } from 'react'
 
 

@@ -1,6 +1,6 @@
-import styles from '../styles/VoteStats.module.css'
-import type { Votes } from '../types/votes'
-import Notification from './Notification'
+import styles from './VoteStats.module.css'
+import type { Votes } from '../../types/votes'
+import Notification from '../Notification/Notification'
 
 interface VoteStatsProps {
     votes: Votes,
